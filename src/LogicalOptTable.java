@@ -1,29 +1,217 @@
 public class LogicalOptTable {
     public static void main(String args[]) {
-        boolean p, q;
-        System.out.println("P\t\tQ\t\tAND\t\tOR\t\tXOR\t\tNOT");
-        p = true;
-        q = true;
+        boolean p,q;
+        int x;
 
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p & q) + "\t" + (p | q) + "\t");
-        System.out.println((p ^ q) + "\t" + (!p));
-        p = true;
-        q = false;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p & q) + "\t" + (p | q) + "\t");
-        System.out.println((p ^ q) + "\t" + (!p));
-        p = false;
-        q = true;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p & q) + "\t" + (p | q) + "\t");
-        System.out.println((p ^ q) + "\t" + (!p));
-        p = false;
-        q = false;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p & q) + "\t" + (p | q) + "\t");
-        System.out.println((p ^ q) + "\t" + (!p));
+        System.out.println("P\tQ\tAND\tOR\tXOR\tNOT");
+
+        p = true; q = true;
+        if(p) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p&q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p|q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p^q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(!p) {
+            x = 1;
+            System.out.println(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.println(x + "\t");
+        }
+        p = true; q = false;
+        if(p) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p&q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p|q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p^q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(!p) {
+            x = 1;
+            System.out.println(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.println(x + "\t");
+
+        }
+
+        p = false; q = true;
+
+        if(p) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p&q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p|q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p^q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(!p) {
+            x = 1;
+            System.out.println(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.println(x + "\t");
 
 
+
+        }
+
+        p = false; q = false;
+
+        if(p) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p&q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p|q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p^q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(!p) {
+            x = 1;
+            System.out.println(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.println(x + "\t");
+
+
+
+        }
     }
 }
+
