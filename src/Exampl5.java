@@ -103,10 +103,64 @@ class Example5 {
                 x = 0;
                 System.out.println(x + "\t");
 
-
-
             }
-            p = true; q = false;
+
+            p = false; q = true;
+
+            if(p) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p&q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p|q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(p^q) {
+            x = 1;
+            System.out.print(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.print(x + "\t");
+        }
+        if(!p) {
+            x = 1;
+            System.out.println(x + "\t");
+        }
+        else {
+            x = 0;
+            System.out.println(x + "\t");
+
+
+
+        }
+
+        p = false; q = false;
+
         if(p) {
             x = 1;
             System.out.print(x + "\t");
