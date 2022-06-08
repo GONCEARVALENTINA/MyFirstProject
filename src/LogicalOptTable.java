@@ -207,7 +207,8 @@ public class LogicalOptTable {
         }
         else {
             x = 0;
-            System.out.println(x + "\t");
+
+
 
 
 
