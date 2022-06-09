@@ -102,9 +102,7 @@ public class LogicalOptTable {
         else {
             x = 0;
             System.out.println(x + "\t");
-
         }
-
         p = false; q = true;
 
         if(p) {
@@ -154,9 +152,6 @@ public class LogicalOptTable {
         else {
             x = 0;
             System.out.println(x + "\t");
-
-
-
         }
 
         p = false; q = false;
@@ -207,11 +202,6 @@ public class LogicalOptTable {
         }
         else {
             x = 0;
-
-
-
-
-
         }
     }
 }
