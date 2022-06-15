@@ -5,7 +5,7 @@ public class KbIn {
 
 
         char ch;
-        System.out.print("Нажмите нужную клавишу, а затем клавишу[ENTER]");
+        System.out.print("Нажмите нужную клавишу, а затем клавишу[ВХОД]");
 
         ch = (char) System.in.read();
         System.out.println("Вы нажали клавишу " +" " + ch);
