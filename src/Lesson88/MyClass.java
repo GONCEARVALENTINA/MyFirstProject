@@ -1,16 +1,16 @@
-package Lesson8;
+package Lesson88;
 
 public class MyClass {
-    private int alpha;
     public int beta;
     int gamma;
+    private int alpha;
 
+    public int getAlpha() {
+        return alpha;
+    }
 
     void setAlpha(int a) {
         alpha = a;
-    }
-    int getAlpha(){
-        return alpha;
     }
 
     @Override
@@ -22,5 +22,3 @@ public class MyClass {
                 '}';
     }
 }
-
-
