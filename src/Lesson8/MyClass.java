@@ -9,8 +9,18 @@ public class MyClass {
     void setAlpha(int a) {
         alpha = a;
     }
-    int getAlpha() {
+    int getAlpha(){
         return alpha;
     }
 
+    @Override
+    public String toString() {
+        return "MyClass{" +
+                "alpha=" + alpha +
+                ", beta=" + beta +
+                ", gamma=" + gamma +
+                '}';
+    }
 }
+
+
