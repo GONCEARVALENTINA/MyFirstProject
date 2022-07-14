@@ -17,6 +17,7 @@ public class Menu {
             System.out.println("Create your password:");
             User.user.setPassword(scanner.nextLine());
         } while (User.user.getPassword().equals(""));
+
     }
 
 }
